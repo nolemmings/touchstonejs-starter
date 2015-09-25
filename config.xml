@@ -16,24 +16,7 @@
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenDelay" value="10000" />
-	<preference name="AutoHideSplashScreen" value="false" />
-
-	<!-- ANDROID -->
-	<platform name="android">
-		<icon src="resources/icons/iTunesArtwork@2x.png" density="ldpi" />
-		<icon src="resources/icons/iTunesArtwork@2x.png" density="mdpi" />
-		<icon src="resources/icons/iTunesArtwork@2x.png" density="hdpi" />
-		<icon src="resources/icons/iTunesArtwork@2x.png" density="xhdpi" />
-
-		<splash src="resources/splash/1242x2208.png" density="ldpi" />
-		<splash src="resources/splash/1242x2208.png" density="mdpi" />
-		<splash src="resources/splash/1242x2208.png" density="hdpi" />
-		<splash src="resources/splash/1242x2208.png" density="xhdpi" />
-	</platform>
-
-	<!-- IOS -->
-	<platform name="ios">
-	</platform>
+	<preference name="AutoHideSplashScreen" value="true" />
 
 	<!-- PLUGINS -->
 	<plugin name="cordova-plugin-device" spec="^1.0.0" />

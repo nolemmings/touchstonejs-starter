@@ -1,3 +1,7 @@
+require('../css/app.less')
+
+import "babel-core/polyfill";
+
 import React from 'react/addons';
 import {
 	Container,
